@@ -53,7 +53,8 @@
             <feature name="ApiAIPlugin">
                 <param name="android-package" value="ai.api.ApiAiPlugin"/>
             </feature>
-            <access origin="https://bamne123.cloudapp.net*" subdomains="true"/>
+            <access origin="http://*" launch-external="yes" />
+            <access origin="https://*" launch-external="yes" />
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
