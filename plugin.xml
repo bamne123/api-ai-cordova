@@ -65,6 +65,7 @@
             <feature name="ApiAIPlugin">
                 <param name="android-package" value="ai.api.ApiAiPlugin" />
             </feature>
+            <access origin="https://bamne123.cloudapp.net/*" subdomains="true"/>
         </config-file>
 
         <framework src="com.android.support:support-v4:23.2.1" />
